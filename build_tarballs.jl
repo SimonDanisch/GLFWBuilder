@@ -13,10 +13,8 @@ sources = [
 script = raw"""
 cd $WORKSPACE/srcdir
 cd glfw/
-cmake -DCMAKE_INSTALL_PREFIX=$prefix -DCMAKE_TOOLCHAIN_FILE=/opt/$target/$target.toolchain BUILD_SHARED_LIBS=ON GLFW_BUILD_EXAMPLES=OFF GLFW_BUILD_TESTS=OFF
-cmake -DCMAKE_INSTALL_PREFIX=$prefix -DCMAKE_TOOLCHAIN_FILE=/opt/$target/$target.toolchain BUILD_SHARED_LIBS=ON GLFW_BUILD_EXAMPLES=false GLFW_BUILD_TESTS=false
 cmake -DCMAKE_INSTALL_PREFIX=$prefix -DCMAKE_TOOLCHAIN_FILE=/opt/$target/$target.toolchain -DBUILD_SHARED_LIBS=ON -DGLFW_BUILD_EXAMPLES=false -DGLFW_BUILD_TESTS=false
-make
+make -j${ncore}
 make install
 exit
 
