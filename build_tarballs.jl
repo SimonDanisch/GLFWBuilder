@@ -2,10 +2,12 @@
 # `julia build_tarballs.jl --help` to see a usage message.
 using BinaryBuilder
 
+version = v"3.2.1"
+
 # Collection of sources required to build glfw
 sources = [
     "https://github.com/glfw/glfw.git" =>
-    "1b8e3fdeae93df6d211529140439c644fcc45f87",
+    "999f3556fdd80983b10051746264489f2cb1ef16",
 
 ]
 
@@ -34,10 +36,7 @@ products(prefix) = [
 ]
 
 # Dependencies that must be installed before this package can be built
-dependencies = [
-    
-]
+dependencies = []
 
 # Build the tarballs, and possibly a `build.jl` as well.
-build_tarballs(ARGS, "glfw", sources, script, platforms, products, dependencies)
-
+build_tarballs(ARGS, "glfw", version, sources, script, platforms, products, dependencies)
