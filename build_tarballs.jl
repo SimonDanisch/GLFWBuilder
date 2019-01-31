@@ -5,7 +5,7 @@ using BinaryBuilder
 # Collection of sources required to build glfw
 sources = [
     "https://github.com/glfw/glfw.git" =>
-    "1b8e3fdeae93df6d211529140439c644fcc45f87",
+    "999f3556fdd80983b10051746264489f2cb1ef16",
 
 ]
 
