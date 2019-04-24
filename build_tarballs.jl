@@ -2,12 +2,12 @@
 # `julia build_tarballs.jl --help` to see a usage message.
 using BinaryBuilder
 
-version = v"3.2.1"
+version = v"3.3"
 
 # Collection of sources required to build glfw
 sources = [
     "https://github.com/glfw/glfw.git" =>
-    "999f3556fdd80983b10051746264489f2cb1ef16",
+    "b0796109629931b6fa6e449c15a177845256a407",
 
 ]
 
