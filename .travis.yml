@@ -35,5 +35,5 @@ deploy:
     file: products/*
     skip_cleanup: true
     on:
-        repo: SimonDanisch/GLFWBuilder
+        repo: JuliaGL/GLFWBuilder
         tags: true
