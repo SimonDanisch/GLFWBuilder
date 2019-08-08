@@ -28,7 +28,7 @@ script:
 deploy:
     provider: releases
     api_key:
-        # Note; this api_key is only valid for SimonDanisch/GLFWBuilder; you need
+        # Note; this api_key is only valid for JuliaGL/GLFWBuilder; you need
         # to make your own: https://docs.travis-ci.com/user/deployment/releases/
         secure: c3cWR4kWkTFdlLqwory3S2NZbWZ676tvGlyq1YyMIvg314JkUhRdQrksdUuYVSHruCSTcUjfyHKJy/JUzfLILAtL3sq39x9t+mv63lY5dirAjp5glV4shm9mqoKGFZ9+Dp/rY8fu9fJtcOB2rSgUyVRl1mUZ7PeO+5NYRmZ7LnHkaBfQxxljUz9TUaX2GTvlUPXWIDEigT03HHiV9clno1BWSUyVYG74NxxAb4L7AP0OPBgsVweKph6O3lqwkDVNw9vSUARLvp/St8OBVtIfB3Bhr+UsyaE03SyazuqgKC9LdEmwxyPrrClllL3Bb9fAddn9fpOO8d0LNPKjutMla6bUvBw0dwAmUqQGrCt4jyMU3X6C0ZwHcQZPf2IIDL2hc81AnZwe2kpg2oZJCJ8zwCD932MpFsDsChL5UZYtaVIXaZcHwNz0frRbHtVzvDiYlQkrVEvnUFgW/qHl48piQGv15UEiPkYCzHuy8jnWzfjGBt/IpUV3h7IdrKJ2a03TD7Kp8Ix6fLKlM6kJpilp3PzRHcCg1V4LVkF3y0Ys9vy+dRwwNl83g+xjWsZrexrJOzua6D+VXOhi6wX262XgxvzGLptIiz2h9noFziNCeVnOV2PBjOyPu7+/yxmOMcOTg01tF6Jlsq5M8C21iE5Q7OPODlvG2AD68WLgbFvS8jE=
     file_glob: true
